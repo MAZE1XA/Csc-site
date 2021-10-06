@@ -1,9 +1,9 @@
 body {
-  background-color: #1c43e6;    
+    background-color: #1c43e6;    
 }
 hl{ 
     color:#1c43e6;
-    font-family: sans-serif
+    font-family: sans-serif;
     text-align:center;
     font-size: 72pt;
 }
@@ -13,15 +13,40 @@ a: link {
 a: visited { 
     color: darkslateblue;
 }
-    a: hover
-        color: dimgray;
+a: hover {
+    color: dimgray;
 }
 a { 
     text-decoration: none;
     font-size: 30pt;
 }
 *{ 
-margin: opx;
-padding: opx;
+    margin: 0px;
+    padding: 0px;
 }
-div.header       
+div.header { 
+    width: 100%;
+    background-color: darkgreen;
+}
+div.left { 
+    float: left;
+    width: 30%;
+    height:500px; 
+    background-color: black;
+}
+
+div.right {
+ float: left;
+ width: 70%;
+ height:500px;
+background-color: blueviolet;
+}
+div.footer {
+display:inline-block; 
+width: 100%;
+height: 100px;
+background-color: firebrick
+}
+p,a { 
+margin:10px 
+}
