@@ -1,11 +1,14 @@
 body {
     background-color: #1c43e6;    
 }
-hl{ 
+h1{ 
     color:#1c43e6;
-    font-family: sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-align:center;
     font-size: 72pt;
+}
+p {
+    font-family: 'Roboto', sans-serif;
 }
 a: link { 
     color:#1c43e6;
@@ -49,4 +52,7 @@ background-color: firebrick
 }
 p,a { 
 margin:10px 
+}
+img {
+    width: 100%;
 }
